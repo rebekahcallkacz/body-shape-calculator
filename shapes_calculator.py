@@ -5,7 +5,7 @@ def calculate_shape(bust, waist, hips):
     if bust/hips >= 1.05:
         shape = 'inverted triangle'
 
-    # determine if waist is less than 25% smaller than bust and measurements are within 5% of each other
+    # determine if waist is less than 25% smaller than bust and bust/hips measurements are within 5% of each other
     # create a list of all measurements
     measure_list = [bust, hips]
 
