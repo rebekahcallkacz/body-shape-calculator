@@ -7,7 +7,7 @@ def calculate_shape(bust, waist, hips):
 
     # determine if waist is less than 25% smaller than bust and measurements are within 5% of each other
     # create a list of all measurements
-    measure_list = [bust, waist, hips]
+    measure_list = [bust, hips]
 
     # determine the largest measurement
     largest_measure = max(measure_list)
