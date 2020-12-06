@@ -1,5 +1,7 @@
-# This script calculates body shape using bust, waist and hip measurements which are stored in a CSV file.
+# This script calculates body shape using bust, waist and hip measurements.
 # Measurements should be in inches.
+
+# Input should be the three measurements as integers/floats, and output will be a string containing the body shape label.
 def calculate_shape(bust, waist, hips):
     # determine if bust is 5% bigger than hips
     if bust/hips >= 1.05:
